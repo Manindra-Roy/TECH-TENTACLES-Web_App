@@ -1,0 +1,623 @@
+/* animations for myinfo  */
+@keyframes cursor {
+  to {
+    border-left: 5px solid var(--first-bg-color);
+  }
+}
+@keyframes words {
+  0%,
+  20% {
+    content: "Full-Stack Developer.";
+  }
+  21%,
+  40% {
+    content: "Web 3.0 Developer.";
+  }
+  41%,
+  60% {
+    content: "Software Tester.";
+  }
+  61%,
+  80% {
+    content: "3D Animator.";
+  }
+  81%,
+  100% {
+    content: "Video Editor.";
+  }
+}
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: calc(100% + 8px);
+  }
+}
+/* animations for corner linear-gradients */
+@keyframes top-left-to-right-animation {
+  0% {
+    background-position: 0rem;
+  }
+  100% {
+    background-position: 100rem;
+  }
+}
+@keyframes bottom-right-to-left-animation {
+  0% {
+    background-position: -0rem;
+  }
+  100% {
+    background-position: -100rem;
+  }
+}
+@keyframes top-top-to-bottom-animation {
+  0% {
+    background-position: 0rem -0rem;
+  }
+  100% {
+    background-position: 0rem -100rem;
+  }
+}
+@keyframes bottom-bottom-to-top-animation {
+  0% {
+    background-position: 0rem 0rem;
+  }
+  100% {
+    background-position: 0rem 100rem;
+  }
+}
+/* page switching animations */
+/* 1 */
+@keyframes right-door-1 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-1 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 2 */
+@keyframes right-door-2 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-2 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 3 */
+@keyframes right-door-3 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-3 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 4 */
+@keyframes right-door-4 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-4 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 5 */
+@keyframes right-door-5 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-5 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 6 */
+@keyframes right-door-6 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-6 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 7 */
+@keyframes right-door-7 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-7 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 8 */
+@keyframes right-door-8 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-8 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 9 */
+@keyframes right-door-9 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-9 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+/* 10 */
+@keyframes right-door-10 {
+  0% {
+    right: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -110%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-10 {
+  0% {
+    left: -110%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -110%;
+    transform: skewX(-15deg);
+  }
+}
+
+/* progress bar animation */
+:root{
+  --html-pro:95%;
+  --css-pro:85%;
+  --js-pro:90%;
+  --react-pro:50%;
+  --nodejs-pro:60%;
+  --python-pro:65%;
+  --django-pro:25%;
+  --c-pro:85%;
+  --git-pro:99%;
+}
+/*html progress % */
+@keyframes html-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--html-pro);
+  }
+}
+@keyframes html-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--html-pro);
+  }
+}
+/*css progress % */
+@keyframes css-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--css-pro);
+  }
+}
+@keyframes css-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--css-pro);
+  }
+}
+/*js progress % */
+@keyframes js-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--js-pro);
+  }
+}
+@keyframes js-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--js-pro);
+  }
+}
+/*react progress % */
+@keyframes react-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--react-pro);
+  }
+}
+@keyframes react-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--react-pro);
+  }
+}
+/*nodejs progress % */
+@keyframes nodejs-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--nodejs-pro);
+  }
+}
+@keyframes nodejs-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--nodejs-pro);
+  }
+}
+/*python progress % */
+@keyframes python-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--python-pro);
+  }
+}
+@keyframes python-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--python-pro);
+  }
+}
+/*django progress % */
+@keyframes django-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--django-pro);
+  }
+}
+@keyframes django-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--django-pro);
+  }
+}
+/*c progress % */
+@keyframes c-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--c-pro);
+  }
+}
+@keyframes c-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--c-pro);
+  }
+}
+/*git progress % */
+@keyframes git-pro-bar-var-1 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width:var(--git-pro);
+  }
+}
+@keyframes git-pro-bar-var-2 {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: var(--git-pro);
+  }
+}
