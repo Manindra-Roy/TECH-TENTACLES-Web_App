@@ -516,6 +516,7 @@
     align-items: center;
     flex-direction: column;
     row-gap: 5%;
+    margin-top: 13rem;
   }
   .input-group-2 {
     width: 50%;
@@ -5204,6 +5205,7 @@
     align-items: center;
     flex-direction: column;
     row-gap: 5%;
+    margin-top: 13rem;
   }
   .input-group-2 {
     width: 50%;
