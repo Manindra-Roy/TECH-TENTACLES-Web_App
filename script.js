@@ -215,7 +215,7 @@ const setContact3 = () => {
   }, delayInMilliseconds);
 };
 const sethire1 = () => {
-  document.querySelector(".contact>h2").innerHTML='Hire <span>Me</span>'
+  document.querySelector(".contact>h2").innerHTML='Mail&nbsp;<span>Me</span>'
   contactBtnNav.setAttribute("onclick", "setContact2()");
   servicesPage.setAttribute("style", "z-index: -1;");
   skillsPage.setAttribute("style", "z-index: -1;");
@@ -227,7 +227,7 @@ const sethire1 = () => {
   // openMenuBar2()
 };
 const switchToContact=()=>{
-  document.querySelector(".contact>h2").innerHTML='Contact <span>Me</span>'
+  document.querySelector(".contact>h2").innerHTML='Contact&nbsp;<span>Me</span>'
 }
 
 //SELECT THE :ROOT PROPERTY

@@ -461,10 +461,10 @@
   --html-pro:95%;
   --css-pro:85%;
   --js-pro:90%;
-  --react-pro:50%;
-  --nodejs-pro:60%;
-  --python-pro:65%;
-  --django-pro:25%;
+  --react-pro:85%;
+  --nodejs-pro:95%;
+  --python-pro:80%;
+  --django-pro:85%;
   --c-pro:85%;
   --git-pro:99%;
 }
