@@ -538,7 +538,7 @@ body {
 }
 .react-bar {
   height: 100%;
-  width: 50%;
+  width: 85%;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
   animation-duration: 1.5s;
@@ -552,7 +552,7 @@ body {
 }
 .nodejs-bar {
   height: 100%;
-  width: 60%;
+  width: 95%;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
   animation-duration: 1.5s;
@@ -566,7 +566,7 @@ body {
 }
 .python-bar {
   height: 100%;
-  width: 65%;
+  width: 85%;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
   animation-duration: 1.5s;
@@ -580,7 +580,7 @@ body {
 }
 .django-bar {
   height: 100%;
-  width: 25%;
+  width: 80%;
   background-color: var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
   animation-duration: 1.5s;
@@ -989,7 +989,7 @@ div[role="progressbar"]::before {
 }
 .top-right-filer {
   position: absolute;
-  width: 10rem;
+  width: 8rem;
   height: 4.5rem;
   transform: skewX(-45deg);
   background-color: var(--first-bg-color);
@@ -1034,7 +1034,7 @@ div[role="progressbar"]::before {
 .top-bottom-filer {
   position: absolute;
   width: 4.5rem;
-  height: 10rem;
+  height: 8rem;
   transform: skewY(-45deg);
   background-color: var(--first-bg-color);
   top: 123rem;
@@ -1066,7 +1066,7 @@ div[role="progressbar"]::before {
 }
 .bottom-left-filer {
   position: absolute;
-  width: 10rem;
+  width: 8rem;
   height: 4.5rem;
   transform: skewX(-45deg);
   background-color: var(--first-bg-color);
@@ -1110,7 +1110,7 @@ div[role="progressbar"]::before {
 .bottom-top-filer {
   position: absolute;
   width: 4.5rem;
-  height: 10rem;
+  height: 8rem;
   transform: skewY(-45deg);
   background-color: var(--first-bg-color);
   bottom: 98rem;

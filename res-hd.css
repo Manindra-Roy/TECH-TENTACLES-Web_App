@@ -133,6 +133,7 @@
   }
   .top-right-filer {
     height: 2.25rem;
+    width: 4rem;
     top: 12.5rem;
     left: 49rem;
   }
@@ -148,7 +149,7 @@
   }
   .top-bottom-filer {
     width: 2.25rem;
-    height: 5rem;
+    height: 4rem;
     top: 61.5rem;
   }
   .bottom-right-to-left {
@@ -158,7 +159,7 @@
     right: 1rem;
   }
   .bottom-left-filer {
-    width: 5rem;
+    width: 4rem;
     height: 2.25rem;
     right: 49rem;
   }
@@ -173,7 +174,7 @@
   }
   .bottom-top-filer {
     width: 2.25rem;
-    height: 5rem;
+    height: 4rem;
     bottom: 49rem;
   }
 
