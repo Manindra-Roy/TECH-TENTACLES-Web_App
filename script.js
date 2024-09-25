@@ -1,4 +1,5 @@
 //home page
+let pageLogo = document.querySelector(".logo");
 let heroBtn = document.querySelector(".hero-btn");
 let homePage = document.querySelector(".hero");
 //education page
@@ -77,6 +78,26 @@ const skillsAnimations2 = () => {
 };
 /////////
 //home page
+const setHome01 = () => {
+  pageLogo.setAttribute("onclick", "setHome02()");
+  contactPage.setAttribute("style", "z-index: -1;");
+  servicesPage.setAttribute("style", "z-index: -1;");
+  skillsPage.setAttribute("style", "z-index: -1;");
+  educationPage.setAttribute("style", "z-index: -1;");
+  leftDoor.setAttribute("style", "animation-name:left-door-01;");
+  rightDoor.setAttribute("style", "animation-name:right-door-01;");
+  homePage.setAttribute("style", "z-index: 1;");
+};
+const setHome02 = () => {
+  pageLogo.setAttribute("onclick", "setHome01()");
+  contactPage.setAttribute("style", "z-index: -1;");
+  servicesPage.setAttribute("style", "z-index: -1;");
+  skillsPage.setAttribute("style", "z-index: -1;");
+  educationPage.setAttribute("style", "z-index: -1;");
+  leftDoor.setAttribute("style", "animation-name:left-door-02;");
+  rightDoor.setAttribute("style", "animation-name:right-door-02;");
+  homePage.setAttribute("style", "z-index: 1;");
+};
 const setHome1 = () => {
   heroBtn.setAttribute("onclick", "setHome2()");
   contactPage.setAttribute("style", "z-index: -1;");
