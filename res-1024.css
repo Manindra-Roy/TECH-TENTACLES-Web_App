@@ -554,6 +554,80 @@
   /* CONTACT SECTION END */
 
   /* page switching animations */
+    /* 01 */
+@keyframes right-door-01 {
+  0% {
+    right: -125%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -125%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-01 {
+  0% {
+    left: -125%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -125%;
+    transform: skewX(-15deg);
+  }
+}
+/* 02 */
+@keyframes right-door-02 {
+  0% {
+    right: -125%;
+    transform: skewX(15deg);
+  }
+  40% {
+    right: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    right: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    right: -125%;
+    transform: skewX(-15deg);
+  }
+}
+@keyframes left-door-02 {
+  0% {
+    left: -125%;
+    transform: skewX(15deg);
+  }
+  40% {
+    left: -50%;
+    transform: skewX(15deg);
+  }
+  60% {
+    left: -50%;
+    transform: skewX(-15deg);
+  }
+  100% {
+    left: -125%;
+    transform: skewX(-15deg);
+  }
+}
   /* 1 */
   @keyframes right-door-1 {
     0% {
